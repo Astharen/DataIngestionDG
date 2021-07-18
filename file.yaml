@@ -1,0 +1,13 @@
+file_type: csv
+file_name: KernelVersionOutputFiles
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+dtype: {'CompressionTypeExtension': 'object'}
+columns: 
+    - id
+    - kernelversionid
+    - filename
+    - contentlength
+    - contenttypeextension
+    - compressiontypeextension
